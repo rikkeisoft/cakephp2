@@ -1,0 +1,16 @@
+# netbeans project 
+/nbproject
+
+# cakephp framework
+/Config/database.php
+/Config/email.php
+/Config/core.php
+/Console/phpunit
+/Plugin/*
+/Vendor/*
+/tmp/*
+/webroot/files/*
+
+# composer
+/composer.lock
+/composer.phar
