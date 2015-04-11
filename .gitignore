@@ -6,6 +6,7 @@
 /Config/email.php
 /Config/core.php
 /Console/phpunit
+/Console/core.php
 /Plugin/*
 /Vendor/*
 /tmp/*

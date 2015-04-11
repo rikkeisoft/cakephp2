@@ -208,7 +208,7 @@ class ProjectShell extends AppShell
             $success = false;
         }
         if ($success && $hardCode) {
-            $this->out(__d('cake_console', '   * <warning>Remember to check these values after moving to production server</warning>'));
+            $this->out(__d('cake_console', ' * <warning>Remember to check these values after moving to production server</warning>'));
         }
 
         return $success;
