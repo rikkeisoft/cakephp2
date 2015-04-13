@@ -1,17 +1,38 @@
-# netbeans project 
-/nbproject
-
-# cakephp framework
+# Cakephp Framework #
+#####################
 /Config/database.php
 /Config/email.php
 /Config/core.php
-/Console/phpunit
-/Console/core.php
+!/Console/cake
+!/Console/cake.bat
+!/Console/Command
+/Console/*
 /Plugin/*
 /Vendor/*
 /tmp/*
 /webroot/files/*
 
-# composer
+# User specific & automatically generated files #
+#################################################
+/build
+/dist
+/tags
 /composer.lock
 /composer.phar
+/phpunit.xml
+
+# IDE and editor specific files #
+#################################
+/nbproject
+.idea
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
