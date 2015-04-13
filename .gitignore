@@ -3,6 +3,7 @@
 /Config/database.php
 /Config/email.php
 /Config/core.php
+!/Console/cake.php
 !/Console/cake
 !/Console/cake.bat
 !/Console/Command
