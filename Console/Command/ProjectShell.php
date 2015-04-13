@@ -188,13 +188,12 @@ class ProjectShell extends AppShell
      */
     protected function _fixCakeCoreIncludePath($path)
     {
-        $hardCode = false;
+        $hardCode = true;
         if ($this->Project->cakeOnIncludePath()) {
             $this->out(__d('cake_console', '<info>CakePHP is on your `include_path`. CAKE_CORE_INCLUDE_PATH will be set, but commented out.</info>'));
         } else {
             $this->out(__d('cake_console', '<warning>CakePHP is not on your `include_path`, CAKE_CORE_INCLUDE_PATH will be hard coded.</warning>'));
             $this->out(__d('cake_console', 'You can fix this by adding CakePHP to your `include_path`.'));
-            $hardCode = true;
         }
         $success = $this->Project->corePath($path, $hardCode) === true && $this->Project->consolePath($path) === true;
         if ($success) {
