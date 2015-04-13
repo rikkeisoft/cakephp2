@@ -1,11 +1,11 @@
 Introduction
 ------------
-A template of [CakePHP](http://cakephp.org) v2 project, this is custom by RikkeiSoft Co. Ltd.,
+A [CakePHP](http://cakephp.org) v2 project template customized by RikkeiSoft Co., Ltd.
 
 Requirements
 ------------
 * PHP 5.3.0 and up.
-* Install [composer](http://getcomposer.org)
+* [composer](http://getcomposer.org)
 
 Usage
 -------------
