@@ -12,7 +12,7 @@ Usage
 Using `composer`
 
 ```shell
-$ composer create-project rikkei/cakephp2 /path/to/project
+$ composer create-project rikkeisoft/cakephp2 /path/to/project
 ```
 
 Contributing
@@ -26,8 +26,6 @@ To ensure a consistent code base, you should make sure the code follows
 the [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md).
 
 If you would like to help, take a look at the [list of issues](https://github.com/rikkeisoft/cakephp2/issues).   
-
-**In case of security issues, please email to oanhnn@rikkeisoft.com**
 
 License
 -------
